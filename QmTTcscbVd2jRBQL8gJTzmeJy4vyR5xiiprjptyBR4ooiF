@@ -1,0 +1,35 @@
+<FireBoxRoom>
+ <Assets>
+  <AssetObject id="slotMachine" src="https://vesta.janusvr.com/files/mockworld/slotMachine.dae" ></AssetObject> 
+  <AssetObject id="slotMachineScreens" src="https://vesta.janusvr.com/files/mockworld/slotMachineScreens.dae" ></AssetObject> 
+  <AssetObject id="lottoMachine" src="https://vesta.janusvr.com/files/mockworld/lottoMachine.dae" ></AssetObject>
+  <AssetObject id="lottoMachineScreens" src="https://vesta.janusvr.com/files/mockworld/lottoMachineScreens.dae" ></AssetObject>
+   
+  <AssetObject id="colliderBox" src="https://vesta.janusvr.com/files/mockworld/colliderBox.obj" ></AssetObject>
+   
+  <AssetWebSurface id="slotMachineTop" src="https://decentral.games/bannerSlots" height="186" width="850" show_url_bar="false" ></AssetWebSurface>
+  <AssetWebSurface id="slotMachineContent" src="https://decentral.games/slots" height="839" width="850" show_url_bar="false" ></AssetWebSurface>
+   
+  <AssetWebSurface id="lottoMachineTop" src="https://decentral.games/bannerlotto" height="162" width="850" show_url_bar="false" ></AssetWebSurface>
+  <AssetWebSurface id="lottoMachineContent" src="https://decentral.games/decentralotto" height="977" width="850" show_url_bar="false" ></AssetWebSurface>
+ </Assets>
+ <Room pbr="true" use_local_asset="room5" visible="true" pos="0 .25 5" zdir="0 0 -1" gravity="-9.8" >
+  <Object id="colliderBox" collision_id="colliderBox" visible="false" />
+   
+  <Object id="slotMachine" scale=".51 .51 .51" pos="-2, 0, 0" />
+  <Object id="lottoMachine" scale=".51 .51 .51" pos="2, 0, 0" />
+   
+  <Object websurface_id="slotMachineTop" scale=".895 .196 1" pos="-2 2.324 .577" /> 
+  <Object websurface_id="slotMachineContent" scale=".91 .898 1" pos="-2.015 1.7 .671" rotation="-11.5 0 0" /> 
+   
+  <Object websurface_id="lottoMachineTop" scale="1.315 .251 1" pos="2 2.62 .606" /> 
+  <Object websurface_id="lottoMachineContent" scale="1.318 1.515 1" pos="1.98 1.641 .606" />
+   
+  <Light pos="-6, 3, 0" light_intensity="8" light_cone_angle="0" light_cone_exponent=".2" ></Light>
+  <Light pos="0, 3, 6" light_intensity="8" light_cone_angle="0" light_cone_exponent=".2" ></Light> 
+  <Light pos="6, 3, 0" light_intensity="8" light_cone_angle="0" light_cone_exponent=".2" ></Light> 
+  <Light pos="0, 3, -6" light_intensity="8" light_cone_angle="0" light_cone_exponent=".2" ></Light>  
+
+  <Object js_id="vesta_thumbnail_camera" pos="0 0 5" /> 
+ </Room>
+</FireBoxRoom>

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "title": "decentral-games-demo",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "steve",
+    "email": "steve@decentral.games"
+  },
+  "owner": "",
+  "scene": {
+    "parcels": ["0,0", "0,1", "1, 1", "1, 0"],
+    "base": "0,0"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
+  "main": "bin/game.js",
+  "tags": []
+}

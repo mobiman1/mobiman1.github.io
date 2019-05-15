@@ -1,0 +1,44 @@
+# Blender MTL File: 'lottoMachine.blend'
+# Material Count: 4
+
+newmtl bezelM
+Ns 575.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.005605 0.005605 0.005605
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl bodyM
+Ns 575.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.007499 0.012286 0.018500
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd /Users/home/projects/fluxCapital/decentralotto/materials/textureBlank128.png
+
+newmtl panelM
+Ns 575.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.550000
+d 1.000000
+illum 3
+map_Kd /Users/home/projects/fluxCapital/decentralotto/materials/textureDecal512.png
+
+newmtl screenM
+Ns 575.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.005605 0.005605 0.005605
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
